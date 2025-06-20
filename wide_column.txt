@@ -1,0 +1,38 @@
+db.studi_wide_column.insertMany([
+  {
+    nama: "Andi",
+    jurusan: "Informatika",
+    angkatan: 2022,
+    ipk: 3.75,
+    prestasi: ["Juara Olimpiade Nasional", "Beasiswa Penuh"],
+    kontak: { email: "andi@example.com", telepon: "08123456789" }
+  },
+  {
+    nama: "Budi",
+    jurusan: "Sistem Informasi",
+    angkatan: 2021,
+    ipk: 3.60,
+    organisasi: ["Himpunan Mahasiswa", "UKM Sepak Bola"]
+  },
+  {
+    nama: "Citra",
+    jurusan: "Teknik Elektro",
+    angkatan: 2020,
+    ipk: 3.80,
+    kontak: { email: "citra@example.com" }
+  },
+  {
+    nama: "Dewi",
+    jurusan: "Manajemen",
+    angkatan: 2022,
+    ipk: 3.70,
+    prestasi: ["Asisten Dosen"]
+  },
+  {
+    nama: "Eka",
+    jurusan: "Akuntansi",
+    angkatan: 2021,
+    ipk: 3.65,
+    organisasi: ["UKM Musik"]
+  }
+])
